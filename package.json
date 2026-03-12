@@ -1,0 +1,15 @@
+{
+  "name": "homeschool-eval",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Homeschool Evaluation Tracker — Cloudflare Worker + D1",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:migrate": "wrangler d1 execute homeschool-eval-db --file=schemas/schema.sql --remote",
+    "db:migrate:local": "wrangler d1 execute homeschool-eval-db --file=schemas/schema.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
