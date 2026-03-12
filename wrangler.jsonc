@@ -1,0 +1,12 @@
+{
+  "name": "homeschool-eval",
+  "main": "src/index.js",
+  "compatibility_date": "2024-01-01",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "homeschool-eval-db",
+      "database_id": "81894612-1003-4c82-bf9e-16a1328c93f5"
+    }
+  ]
+}
